@@ -7,5 +7,9 @@ body {
 }
 
 .cards {
-margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.test {
+  display: none;
 }

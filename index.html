@@ -4,7 +4,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.0.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/interface.js"></script>
 
     <title>Memory Game</title>
   </head>
@@ -22,21 +22,21 @@
       <div class="row cards">
         <div class="col-md-2">
         </div>
-        <div class="col-md-2">
-          <img src="img/card-backwards.png" class="img-responsive" alt="card face down" />
-          <img src="img/diamond.png" class="img-responsive face-up" alt="card face up" />
+        <div class="col-md-2" id="diamond1">
+          <img src="img/card-backwards.png" id="a" class="img-responsive face-down" alt="card face down" />
+          <img src="img/diamond.png" id="b" class="img-responsive face-up" alt="card face up" />
         </div>
-        <div class="col-md-2">
-          <img src="img/card-backwards.png" class="img-responsive" alt="card face down" />
-          <img src="img/spade.png" class="img-responsive face-up" alt="card face up" />
+        <div class="col-md-2" id="spade1">
+          <img src="img/card-backwards.png" id="c" class="img-responsive face-down" alt="card face down" />
+          <img src="img/spade.png" id="d" class="img-responsive face-up" alt="card face up" />
         </div>
-        <div class="col-md-2">
-          <img src="img/card-backwards.png" class="img-responsive" alt="card face down" />
-          <img src="img/heart.png" class="img-responsive face-up" alt="card face up" />
+        <div class="col-md-2" id="heart1">
+          <img src="img/card-backwards.png" id="e" class="img-responsive face-down" alt="card face down" />
+          <img src="img/heart.png" id="f" class="img-responsive face-up" alt="card face up" />
         </div>
-        <div class="col-md-2">
-          <img src="img/card-backwards.png" class="img-responsive" alt="card face down" />
-          <img src="img/spade.png" class="img-responsive face-up" alt="card face up" />
+        <div class="col-md-2" id="spade2">
+          <img src="img/card-backwards.png" id="g" class="img-responsive face-down" alt="card face down" />
+          <img src="img/spade.png" id="h" class="img-responsive face-up" alt="card face up" />
         </div>
         <div class="col-md-2">
         </div>
@@ -45,21 +45,21 @@
       <div class="row cards">
         <div class="col-md-2">
         </div>
-        <div class="col-md-2">
-          <img src="img/card-backwards.png"  class="img-responsive" alt="card face down" />
-          <img src="img/heart.png" class="img-responsive face-up" alt="card face up" />
+        <div class="col-md-2" id="heart2">
+          <img src="img/card-backwards.png" id="j" class="img-responsive face-down" alt="card face down" />
+          <img src="img/heart.png" id="k" class="img-responsive face-up" alt="card face up" />
         </div>
-        <div class="col-md-2">
-          <img src="img/card-backwards.png"  class="img-responsive" alt="card face down" />
-          <img src="img/club.png" class="img-responsive face-up" alt="card face up" />
+        <div class="col-md-2" id="club1">
+          <img src="img/card-backwards.png" id="l"  class="img-responsive face-down" alt="card face down" />
+          <img src="img/club.png" id="m" class="img-responsive face-up" alt="card face up" />
         </div>
-        <div class="col-md-2">
-          <img src="img/card-backwards.png"  class="img-responsive" alt="card face down" />
-          <img src="img/club.png" class="img-responsive face-up" alt="card face up" />
+        <div class="col-md-2" id="club2">
+          <img src="img/card-backwards.png" id="n" class="img-responsive face-down" alt="card face down" />
+          <img src="img/club.png" id="o" class="img-responsive face-up" alt="card face up" />
         </div>
-        <div class="col-md-2">
-          <img src="img/card-backwards.png"  class="img-responsive" alt="card face down" />
-          <img src="img/diamond.png" class="img-responsive face-up" alt="card face up" />
+        <div class="col-md-2" id="diamond2">
+          <img src="img/card-backwards.png" id="p" class="img-responsive face-down" alt="card face down" />
+          <img src="img/diamond.png" id="q" class="img-responsive face-up" alt="card face up" />
         </div>
         <div class="col-md-2">
         </div>
@@ -67,7 +67,7 @@
       </div>
       <div class="row cards">
         <p class="text-center">
-          <button type="button" class="btn btn-default btn-lg">Play!</button>
+          <button type="button" id="play" class="btn btn-default btn-lg">Play!</button>
         </p>
       </div>
 
